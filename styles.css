@@ -1,2 +1,76 @@
 
 /* Your CSS Code here. */
+
+
+h1{
+    
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 20em;
+    
+    text-decoration-color: rgb(122, 37, 37);
+
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    li a:hover {
+        background-color: #111;
+}
+aside {
+    text-align: center;
+    width: 20%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+    font-style: italic;
+    background-color:yellow;
+    border-style:dotted;
+}
+
+img{
+    display: block;
+    margin: auto;
+    text-align:center;
+    width:800px;
+    height:500px;
+    border-style:dashed;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:brown;
+    padding: 10px;
+    
+   
+    text-align: center;
+  }
+  .grid-item {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    
+    
+  }
+  footer{
+    text-align: center;
+  }
